@@ -1,7 +1,5 @@
--f https://download.pytorch.org/whl/torch_stable.html
-torch==1.10.2+cpu
-torchvision==0.11.3+cpu
-fastai==2.5.5
-voila==0.3.4
+https://download.pytorch.org/whl/cpu/torch-1.6.0%2Bcpu-cp36-cp36m-linux_x86_64.whl
+https://download.pytorch.org/whl/cpu/torchvision-0.7.0%2Bcpu-cp36-cp36m-linux_x86_64.whl
+fastai
+voila
 ipywidgets
-jinja2==2.11.3
