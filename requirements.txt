@@ -1,5 +1,6 @@
-https://download.pytorch.org/whl/cpu/torch-1.7.1%2Bcpu-cp38-cp38-linux_x86_64.whl
-https://download.pytorch.org/whl/cpu/torchvision-0.8.2%2Bcpu-cp38-cp38-linux_x86_64.whl
-fastai==2.2.5
-voila
+torch==1.10.2+cpu
+torchvision==0.11.3+cpu
+fastai==2.5.5
+voila==0.3.4
 ipywidgets
+jinja2==2.11.3
