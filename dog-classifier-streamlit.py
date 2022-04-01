@@ -18,10 +18,12 @@ import streamlit as sth
 
 from fastai.vision.widgets import *
 from fastai.vision.all import *
-
+import pathlib
 from pathlib import Path
-
 import streamlit as st
+
+plt = platform.system()
+if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 class Predict:
     def __init__(self, filename):
