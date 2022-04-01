@@ -25,6 +25,8 @@ import streamlit as st
 plt = platform.system()
 if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
+st.title("This app is built using fastai's library. It classifies dogs as siberian husky, golden retriever or samoyed.")    
+    
 class Predict:
     def __init__(self, filename):
         self.learn_inference = load_learner(Path()/filename)
