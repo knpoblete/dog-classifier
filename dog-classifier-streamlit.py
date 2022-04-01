@@ -4,11 +4,10 @@
 # In[2]:
 
 
-import fastbook
-fastbook.setup_book()
-from fastbook import *
-import streamlit as st
+from fastai.vision.widgets import *
+from fastai.vision.all import *
 from pathlib import Path
+import streamlit as sth
 
 
 # In[11]:
