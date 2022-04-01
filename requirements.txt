@@ -1,6 +1,6 @@
 numpy
 streamlit
-torch==1.7.1
-torchvision==0.8.2
+torch==1.10.2+cpu
+torchvision==0.11.3+cpu
 fastai==2.2.5
 jupyter
