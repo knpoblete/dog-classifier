@@ -13,9 +13,6 @@ import streamlit as sth
 # In[11]:
 
 
-learn_inf = load_learner('export.pkl')
-
-
 # In[10]:
 
 
